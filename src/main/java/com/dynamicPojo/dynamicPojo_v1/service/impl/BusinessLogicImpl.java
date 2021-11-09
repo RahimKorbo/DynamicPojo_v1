@@ -1,12 +1,13 @@
-package com.dynamicPojo.dynamicPojo_v1.service;
+package com.dynamicPojo.dynamicPojo_v1.service.impl;
 
+import com.dynamicPojo.dynamicPojo_v1.service.BusinessLogic;
 import com.dynamicPojo.dynamicPojo_v1.utils.Constants;
 import com.dynamicPojo.dynamicPojo_v1.utils.DynamicPojoPostRequest;
 
 import java.util.HashMap;
 import java.util.Set;
 
-public class BusinessLogicImpl implements BusinessLogic{
+public class BusinessLogicImpl implements BusinessLogic {
 
     @Override
     public String getClassLogic(DynamicPojoPostRequest request) {
