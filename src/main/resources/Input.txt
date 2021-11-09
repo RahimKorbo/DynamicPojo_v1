@@ -1,0 +1,18 @@
+{
+    "tableName":"CardDetails",
+    "columnesDetails":[{
+            "columnName":"cardId",
+            "columnType":"VARCHAR"
+        },
+        {
+            "columnName":"maskCardNumber",
+            "columnType":"INT"
+        },
+        {
+            "columnName":"customerName",
+            "columnType":"VARCHAR"
+        }
+
+    ]
+
+}

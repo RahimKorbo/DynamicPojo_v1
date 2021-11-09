@@ -22,7 +22,7 @@ public class BusinessLogicImpl implements BusinessLogic {
 
     @Override
     public String getClassLogic(DynamicPojoPostRequest request) {
-        String tableName="Persons";
+        String tableName= request.getTableName();
 
         logger.debug("Business Serviewss---"+String.valueOf(request));
         HashMap<String,String> columnMap=new HashMap<String,String>();
